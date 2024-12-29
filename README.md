@@ -20,12 +20,7 @@ To run the project, you need to have the following dependencies installed:
 - Tesseract OCR
 - Numpy
 - Regex
-
-You can install the necessary Python libraries using pip:
-
-```bash
-pip install opencv-python pytesseract numpy
-
+- 
 ## How It Works
 
 ### 1. Image Preprocessing
@@ -39,4 +34,10 @@ Once a plate is detected, the region containing the plate is passed through addi
 
 ### 4. Real-Time Video Processing
 The system can also process video streams in real-time. For each frame in the video, the system detects and recognizes any license plates, displaying the results live. The process is similar to the image processing, but done continuously for each frame of the video.
+
+You can install the necessary Python libraries using pip:
+
+```bash
+pip install opencv-python pytesseract numpy
+
 
