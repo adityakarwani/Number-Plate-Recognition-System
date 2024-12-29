@@ -20,7 +20,7 @@ To run the project, you need to have the following dependencies installed:
 - Tesseract OCR
 - Numpy
 - Regex
-- 
+  
 ## How It Works
 
 ### 1. Image Preprocessing
